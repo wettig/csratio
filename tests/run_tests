@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Run the test scripts.
+
+tests="analytical.py numerical.py"
+
+for test in $tests; do
+    echo -n Running test $test "... "
+    python $test 1>/dev/null
+    if [ $? == "0" ]; then
+	echo passed.
+    else
+	echo Test $test failed. Please investigate.
+    fi
+done
