@@ -1,6 +1,6 @@
 ### Approximation formula for complex spacing ratios in the Ginibre ensemble
 
-This code accompanies the paper [arXiv:2101.xxxxx](https://arxiv.org/abs/2101.xxxxx).
+This code accompanies the paper [arXiv:2201.05104](https://arxiv.org/abs/2201.05104).
 The directory structure is as follows:
 
 * csratio/analytical: Analytical results from computer algebra code (sympy).
